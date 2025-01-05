@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/flappy-ass/static/css/main.be9ba1f9.css",
-    "main.js": "/flappy-ass/static/js/main.e550a415.js",
+    "main.js": "/flappy-ass/static/js/main.89b8cd1c.js",
     "index.html": "/flappy-ass/index.html",
     "main.be9ba1f9.css.map": "/flappy-ass/static/css/main.be9ba1f9.css.map",
-    "main.e550a415.js.map": "/flappy-ass/static/js/main.e550a415.js.map"
+    "main.89b8cd1c.js.map": "/flappy-ass/static/js/main.89b8cd1c.js.map"
   },
   "entrypoints": [
     "static/css/main.be9ba1f9.css",
-    "static/js/main.e550a415.js"
+    "static/js/main.89b8cd1c.js"
   ]
 }
