@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+}
+
+.game-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  width: 400px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  background-color: #70c5ce;
+}
+
+.bird {
+  width: 40px;
+  height: 30px;
+  position: absolute;
+}
+
+.pipe {
+  position: absolute;
+  width: 60px;
+  background-color: #3c9c41;
+}
+
+.score {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  z-index: 100;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 100;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+}
+
+.tap-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.tap-button span {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Style for when you add an image */
+.tap-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Add this to style the bird image */
+.bird img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
